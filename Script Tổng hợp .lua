@@ -61,9 +61,35 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "Speed Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
+  
+  AddButton(Tab2o, {
+     Name = "Sky hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/SKYLOLAND/refs/heads/main/Load.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Twvz hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/arisecrossover.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "NS HUB",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/y/refs/heads/main/hj"))()
+  end
+  })
+  
+  
+  
+  
+  
